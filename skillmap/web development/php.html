@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHP Learning Resources - SkillMap</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, skyblue, white, lightpink) no-repeat;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: white;
+            padding: 15px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            position: fixed;
+            width: 100%;
+            top: 0;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: darkblue;
+            padding-left: 20px;
+        }
+        .container {
+            margin-top: 80px;
+            padding: 20px;
+        }
+        .section {
+            margin: 30px auto;
+            max-width: 1200px;
+            background: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .section h2 {
+            font-size: 28px;
+            color: darkblue;
+        }
+        .resource-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        .resource-item {
+            background: white;
+            padding: 15px;
+            border-radius: 15px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            width: 250px;
+            transition: transform 0.3s ease-in-out;
+        }
+        .resource-item:hover {
+            transform: scale(1.05);
+        }
+        .resource-item a {
+            display: block;
+            margin-top: 10px;
+            padding: 8px;
+            background: linear-gradient(to right, lightblue, blue);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: background 0.3s ease-in-out;
+        }
+        .resource-item a:hover {
+            background: linear-gradient(to right, blue, darkblue);
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">SkillMap</div>
+    </nav>
+    <div class="container">
+        <h1>PHP Learning Resources</h1>
+        
+        <!-- PDFs & eBooks Section -->
+        <div class="section">
+            <h2>PDFs & eBooks</h2>
+            <div class="resource-list">
+                <div class="resource-item"><h3>Modern PHP</h3><a href="https://www.oreilly.com/library/view/modern-php/9781491905166/" target="_blank">Read Online</a></div>
+                <div class="resource-item"><h3>PHP & MySQL Web Development</h3><a href="https://www.pearson.com/store/p/php-and-mysql-web-development/P100000160692" target="_blank">Read Online</a></div>
+                <div class="resource-item"><h3>PHP Cookbook</h3><a href="https://www.oreilly.com/library/view/php-cookbook-3rd/9781449363758/" target="_blank">Read Online</a></div>
+                <div class="resource-item"><h3>Mastering PHP Design Patterns</h3><a href="https://www.packtpub.com/product/mastering-php-design-patterns/9781785887131" target="_blank">Read Online</a></div>
+                <div class="resource-item"><h3>PHP Objects, Patterns, and Practice</h3><a href="https://link.springer.com/book/10.1007/978-1-4302-7066-7" target="_blank">Read Online</a></div>
+                <div class="resource-item"><h3>PHP in Action</h3><a href="https://www.manning.com/books/php-in-action" target="_blank">Read Online</a></div>
+            </div>
+        </div>
+        
+        <!-- Online Courses Section -->
+        <div class="section">
+            <h2>Online Courses</h2>
+            <div class="resource-list">
+                <div class="resource-item"><h3>The Complete PHP Course</h3><a href="https://www.udemy.com/course/php-for-beginners/" target="_blank">Enroll</a></div>
+                <div class="resource-item"><h3>PHP for Beginners - Coursera</h3><a href="https://www.coursera.org/courses?query=php" target="_blank">Start Course</a></div>
+                <div class="resource-item"><h3>PHP Crash Course - Codecademy</h3><a href="https://www.codecademy.com/learn/learn-php" target="_blank">Start Learning</a></div>
+                <div class="resource-item"><h3>PHP and MySQL - Khan Academy</h3><a href="https://www.khanacademy.org/computing/computer-programming/sql" target="_blank">Start Learning</a></div>
+                <div class="resource-item"><h3>PHP Web Development - Pluralsight</h3><a href="https://www.pluralsight.com/courses/php-web-development" target="_blank">Join Course</a></div>
+                <div class="resource-item"><h3>Laravel & PHP - Udemy</h3><a href="https://www.udemy.com/course/php-with-laravel-for-beginners-become-a-master-in-laravel/" target="_blank">Enroll</a></div>
+            </div>
+        </div>
+        
+        <!-- YouTube Videos Section -->
+        <div class="section">
+            <h2>YouTube Videos</h2>
+            <div class="resource-list">
+                <div class="resource-item"><h3>PHP Full Course for Beginners</h3><a href="https://www.youtube.com/watch?v=OK_JCtrrv-c" target="_blank">Watch</a></div>
+                <div class="resource-item"><h3>Learn PHP in One Video</h3><a href="https://www.youtube.com/watch?v=7TF00hJI78Y" target="_blank">Watch</a></div>
+                <div class="resource-item"><h3>PHP & MySQL Tutorial</h3><a href="https://www.youtube.com/watch?v=Yxyup_Pw48A" target="_blank">Watch</a></div>
+                <div class="resource-item"><h3>Object-Oriented PHP</h3><a href="https://www.youtube.com/watch?v=6EukZDFE_Zg" target="_blank">Watch</a></div>
+                <div class="resource-item"><h3>PHP Web Development</h3><a href="https://www.youtube.com/watch?v=OEV8gMkCHXQ" target="_blank">Watch</a></div>
+                <div class="resource-item"><h3>Laravel PHP Framework</h3><a href="https://www.youtube.com/watch?v=ImtZ5yENzgE" target="_blank">Watch</a></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firebase Learning Resources - SkillMap</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, skyblue, white, lightpink) no-repeat;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: white;
+            padding: 15px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            position: fixed;
+            width: 100%;
+            top: 0;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: darkblue;
+            padding-left: 20px;
+        }
+        .container {
+            margin-top: 80px;
+            padding: 20px;
+        }
+        .section {
+            margin: 30px auto;
+            max-width: 1200px;
+            background: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .section h2 {
+            font-size: 28px;
+            color: darkblue;
+        }
+        .resource-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        .resource-item {
+            background: white;
+            padding: 15px;
+            border-radius: 15px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            width: 250px;
+            transition: transform 0.3s ease-in-out;
+        }
+        .resource-item:hover {
+            transform: scale(1.05);
+        }
+        .resource-item a {
+            display: block;
+            margin-top: 10px;
+            padding: 8px;
+            background: linear-gradient(to right, lightblue, blue);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: background 0.3s ease-in-out;
+        }
+        .resource-item a:hover {
+            background: linear-gradient(to right, blue, darkblue);
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">SkillMap</div>
+    </nav>
+    <div class="container">
+        <h1>Firebase Learning Resources</h1>
+        
+        <!-- PDFs & eBooks Section -->
+        <div class="section">
+            <h2>PDFs & eBooks</h2>
+            <div class="resource-list">
+                <div class="resource-item"><h3>Learning Firebase</h3><a href="https://firebase.google.com/community/learn" target="_blank">Read Online</a></div>
+                <div class="resource-item"><h3>Firebase Cookbook</h3><a href="https://books.google.co.in/books/about/Firebase_Cookbook.html?id=mkFPDwAAQBAJ&redir_esc=y" target="_blank">Read Online</a></div>
+                <div class="resource-item"><h3>Mastering Firebase</h3><a href="https://books.google.co.in/books/about/Mastering_Firebase_for_Android_Developme.html?id=RMNiDwAAQBAJ&redir_esc=y" target="_blank">Read Online</a></div>
+                <div class="resource-item"><h3>Firebase Essentials</h3><a href="https://books.google.co.in/books/about/Firebase_Essentials_Android_Edition.html?id=9i4tDwAAQBAJ&redir_esc=y" target="_blank">Read Online</a></div>
+                <div class="resource-item"><h3>Google Firebase for Developers</h3><a href="https://firebase.google.com/" target="_blank">Read Online</a></div>
+                <div class="resource-item"><h3>Building Web Apps with Firebase</h3><a href="https://developers.google.com/codelabs/building-a-web-app-with-angular-and-firebase#0" target="_blank">Read Online</a></div>
+            </div>
+        </div>
+        
+        <!-- Online Courses Section -->
+        <div class="section">
+            <h2>Online Courses</h2>
+            <div class="resource-list">
+                <div class="resource-item"><h3>The Complete Firebase Course</h3><a href="https://www.udemy.com/courses/search/?src=ukw&q=firebase" target="_blank">Start Course</a></div>
+                <div class="resource-item"><h3>Firebase for Web Developers</h3><a href="https://www.codecademy.com/learn/firebase-for-web-developers" target="_blank">Start Course</a></div>
+                <div class="resource-item"><h3>Firebase for Beginners</h3><a href="https://www.coursera.org/search?query=firebase" target="_blank">Start Course</a></div>
+                <div class="resource-item"><h3>Mastering Firebase Cloud Functions</h3><a href="https://www.pluralsight.com/courses/firebase-cloud-functions" target="_blank">Start Course</a></div>
+                <div class="resource-item"><h3>Firebase and Firestore</h3><a href="https://www.udacity.com/course/firebase-in-a-weekend--ud0352" target="_blank">Start Course</a></div>
+                <div class="resource-item"><h3>Firebase Authentication</h3><a href="https://www.udemy.com/course/firebase-authentication/" target="_blank">Start Course</a></div>
+            </div>
+        </div>
+        
+        <!-- YouTube Videos Section -->
+        <div class="section">
+            <h2>YouTube Videos</h2>
+            <div class="resource-list">
+                <div class="resource-item"><h3>Firebase Crash Course</h3><a href="https://www.youtube.com/watch?v=9kRgVxULbag" target="_blank">Watch Now</a></div>
+                <div class="resource-item"><h3>Firebase Full Tutorial</h3><a href="https://www.youtube.com/watch?v=PKwu15ldZ7k" target="_blank">Watch Now</a></div>
+                <div class="resource-item"><h3>Firebase Authentication Guide</h3><a href="https://www.youtube.com/watch?v=h6jDWRzTnzg" target="_blank">Watch Now</a></div>
+                <div class="resource-item"><h3>Firebase Firestore Tutorial</h3><a href="https://www.youtube.com/watch?v=v_hR4K4auoQ" target="_blank">Watch Now</a></div>
+                <div class="resource-item"><h3>Firebase Cloud Functions</h3><a href="https://www.youtube.com/watch?v=DYfP-UIKxH0" target="_blank">Watch Now</a></div>
+                <div class="resource-item"><h3>Firebase Hosting</h3><a href="https://www.youtube.com/watch?v=LOeioOKUKI8" target="_blank">Watch Now</a></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

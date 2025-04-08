@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C Programming Resources - SkillMap</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, skyblue, white, lightpink) no-repeat;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: white;
+            padding: 15px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            position: fixed;
+            width: 100%;
+            top: 0;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: darkblue;
+            padding-left: 20px;
+        }
+        .container {
+            margin-top: 80px;
+            padding: 20px;
+        }
+        .section {
+            margin: 30px auto;
+            max-width: 1200px;
+            background: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .section h2 {
+            font-size: 28px;
+            color: darkblue;
+        }
+        .resource-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        .resource-item {
+            background: white;
+            padding: 15px;
+            border-radius: 15px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            width: 250px;
+            transition: transform 0.3s ease-in-out;
+        }
+        .resource-item:hover {
+            transform: scale(1.05);
+        }
+        .resource-item a {
+            display: block;
+            margin-top: 10px;
+            padding: 8px;
+            background: linear-gradient(to right, lightblue, blue);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: background 0.3s ease-in-out;
+        }
+        .resource-item a:hover {
+            background: linear-gradient(to right, blue, darkblue);
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">SkillMap</div>
+    </nav>
+    <div class="container">
+        <h1>C Programming Learning Resources</h1>
+        
+        <!-- PDFs & eBooks Section -->
+        <div class="section">
+            <h2>PDFs & eBooks</h2>
+            <div class="resource-list">
+                <div class="resource-item"><h3>The C Programming Language</h3><a href="https://archive.org/details/TheCProgrammingLanguage" target="_blank">Download</a></div>
+                <div class="resource-item"><h3>C Programming Absolute Beginner’s Guide</h3><a href="https://www.oreilly.com/library/view/c-programming-absolute/9780134669939/" target="_blank">Read Online</a></div>
+                <div class="resource-item"><h3>Expert C Programming</h3><a href="https://www.oreilly.com/library/view/expert-c-programming/9780133522235/" target="_blank">Read Online</a></div>
+                <div class="resource-item"><h3>Let Us C</h3><a href="https://www.oreilly.com/library/view/let-us-c/9789387284988/" target="_blank">Read Online</a></div>
+                <div class="resource-item"><h3>Programming in ANSI C</h3><a href="https://www.mhprofessional.com/programming-in-ansi-c-9780070702108/" target="_blank">Read Online</a></div>
+                <div class="resource-item"><h3>C: The Complete Reference</h3><a href="https://www.mhprofessional.com/c-the-complete-reference-9780072121242/" target="_blank">Read Online</a></div>
+            </div>
+        </div>
+        
+        <!-- Online Courses Section -->
+        <div class="section">
+            <h2>Online Courses</h2>
+            <div class="resource-list">
+                <div class="resource-item"><h3>C Programming - Coursera</h3><a href="https://www.coursera.org/learn/c-for-everyone" target="_blank">Enroll</a></div>
+                <div class="resource-item"><h3>C for Beginners - Udemy</h3><a href="https://www.udemy.com/course/c-programming-for-beginners/" target="_blank">Enroll</a></div>
+                <div class="resource-item"><h3>CS50’s Introduction to Programming with C</h3><a href="https://cs50.harvard.edu/college/2021/fall/" target="_blank">Join Course</a></div>
+                <div class="resource-item"><h3>Introduction to C - edX</h3><a href="https://www.edx.org/course/c-programming-basics" target="_blank">Join Course</a></div>
+                <div class="resource-item"><h3>C Programming Bootcamp - Udacity</h3><a href="https://www.udacity.com/course/c-programming--ud210" target="_blank">Enroll</a></div>
+            </div>
+        </div>
+        
+        <!-- YouTube Videos Section -->
+        <div class="section">
+            <h2>YouTube Videos</h2>
+            <div class="resource-list">
+                <div class="resource-item"><h3>C Programming Full Course</h3><a href="https://www.youtube.com/watch?v=KJgsSFOSQv0" target="_blank">Watch</a></div>
+                <div class="resource-item"><h3>C Programming Crash Course</h3><a href="https://www.youtube.com/watch?v=IRQYs2wpvrM" target="_blank">Watch</a></div>
+                <div class="resource-item"><h3>Data Structures in C</h3><a href="https://www.youtube.com/watch?v=8hly31xKli0" target="_blank">Watch</a></div>
+                <div class="resource-item"><h3>C Pointers Explained</h3><a href="https://www.youtube.com/watch?v=zuegQmMdy8M" target="_blank">Watch</a></div>
+                <div class="resource-item"><h3>C Memory Management</h3><a href="https://www.youtube.com/watch?v=xDVC3wKjS64" target="_blank">Watch</a></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

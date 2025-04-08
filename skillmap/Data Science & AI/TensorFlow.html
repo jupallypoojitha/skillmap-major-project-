@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TensorFlow Learning Resources - SkillMap</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, skyblue, white, lightpink) no-repeat;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: white;
+            padding: 15px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            position: fixed;
+            width: 100%;
+            top: 0;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: darkblue;
+            padding-left: 20px;
+        }
+        .container {
+            margin-top: 80px;
+            padding: 20px;
+        }
+        .section {
+            margin: 30px auto;
+            max-width: 1200px;
+            background: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .section h2 {
+            font-size: 28px;
+            color: darkblue;
+        }
+        .resource-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        .resource-item {
+            background: white;
+            padding: 15px;
+            border-radius: 15px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            width: 250px;
+            transition: transform 0.3s ease-in-out;
+        }
+        .resource-item:hover {
+            transform: scale(1.05);
+        }
+        .resource-item a {
+            display: block;
+            margin-top: 10px;
+            padding: 8px;
+            background: linear-gradient(to right, lightblue, blue);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: background 0.3s ease-in-out;
+        }
+        .resource-item a:hover {
+            background: linear-gradient(to right, blue, darkblue);
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">SkillMap</div>
+    </nav>
+    <div class="container">
+        <h1>TensorFlow Learning Resources</h1>
+        
+        <!-- PDFs & eBooks Section -->
+        <div class="section">
+            <h2>PDFs & eBooks</h2>
+            <div class="resource-list">
+                <div class="resource-item"><h3>Deep Learning with TensorFlow</h3><a href="https://www.deeplearningbook.org/" target="_blank">Read Online</a></div>
+                <div class="resource-item"><h3>TensorFlow Documentation</h3><a href="https://www.tensorflow.org/" target="_blank">Read Online</a></div>
+                <div class="resource-item"><h3>Hands-On Machine Learning with TensorFlow</h3><a href="https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/" target="_blank">Read Online</a></div>
+                <div class="resource-item"><h3>Neural Networks with TensorFlow</h3><a href="https://www.tensorflow.org/tutorials" target="_blank">Read Online</a></div>
+                <div class="resource-item"><h3>Programming TensorFlow</h3><a href="https://www.oreilly.com/library/view/programming-tensorflow/9781492033219/" target="_blank">Read Online</a></div>
+                <div class="resource-item"><h3>TensorFlow for Deep Learning</h3><a href="https://www.manning.com/books/deep-learning-with-tensorflow-2-and-keras" target="_blank">Read Online</a></div>
+            </div>
+        </div>
+        
+        <!-- Online Courses Section -->
+        <div class="section">
+            <h2>Online Courses</h2>
+            <div class="resource-list">
+                <div class="resource-item"><h3>Deep Learning with TensorFlow</h3><a href="https://www.udacity.com/course/intro-to-tensorflow-for-deep-learning--ud187" target="_blank">Start Course</a></div>
+                <div class="resource-item"><h3>Coursera TensorFlow Specialization</h3><a href="https://www.coursera.org/specializations/tensorflow-in-practice" target="_blank">Start Learning</a></div>
+                <div class="resource-item"><h3>TensorFlow for AI & ML</h3><a href="https://www.udemy.com/course/tensorflow-developer-certificate-course/" target="_blank">Start Course</a></div>
+                <div class="resource-item"><h3>TensorFlow Basics</h3><a href="https://www.datacamp.com/courses/introduction-to-tensorflow" target="_blank">Enroll</a></div>
+                <div class="resource-item"><h3>Advanced TensorFlow Techniques</h3><a href="https://www.edx.org/course/deep-learning-with-tensorflow" target="_blank">Start Course</a></div>
+                <div class="resource-item"><h3>Google TensorFlow Developer</h3><a href="https://www.tensorflow.org/certificate" target="_blank">Start Learning</a></div>
+            </div>
+        </div>
+        
+        <!-- YouTube Videos Section -->
+        <div class="section">
+            <h2>YouTube Videos</h2>
+            <div class="resource-list">
+                <div class="resource-item"><h3>TensorFlow Crash Course</h3><a href="https://www.youtube.com/watch?v=tPYj3fFJGjk" target="_blank">Watch</a></div>
+                <div class="resource-item"><h3>Understanding TensorFlow Basics</h3><a href="https://www.youtube.com/watch?v=2FmcHiLCwTU" target="_blank">Watch</a></div>
+                <div class="resource-item"><h3>Training Neural Networks with TensorFlow</h3><a href="https://www.youtube.com/watch?v=4L8JNYH3QnQ" target="_blank">Watch</a></div>
+                <div class="resource-item"><h3>TensorFlow for Beginners</h3><a href="https://www.youtube.com/watch?v=-57Ne86Ia7E" target="_blank">Watch</a></div>
+                <div class="resource-item"><h3>Building Deep Learning Models</h3><a href="https://www.youtube.com/watch?v=aircAruvnKk" target="_blank">Watch</a></div>
+                <div class="resource-item"><h3>TensorFlow NLP Tutorials</h3><a href="https://www.youtube.com/watch?v=5m5v8FdplcE" target="_blank">Watch</a></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

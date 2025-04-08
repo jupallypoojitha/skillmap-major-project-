@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, skyblue, white, lightpink) no-repeat;
+            background-attachment: fixed;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: white;
+            padding: 10px 20px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1;
+        }
+        .logo {
+            font-size: 22px;
+            font-weight: bold;
+            color: darkblue;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            position: relative;
+        }
+        .logo::before {
+            font-size: 26px;
+            font-weight: bold;
+            color: blue;
+            position: absolute;
+            left: -12px;
+            top: 0;
+        }
+        .logo span {
+            color: orangered;
+        }
+        .nav-links {
+            display: flex;
+            margin-right: 40px;
+            gap: 10px;
+        }
+        .nav-links a {
+            text-decoration: none;
+            font-weight: bold;
+            color: black;
+            padding: 8px 12px;
+            transition: color 0.3s ease-in-out;
+        }
+        .nav-links a:hover {
+            color: blue;
+        }
+        .feedback-section {
+           margin-top: 50px;
+           background: white;
+           border-radius: 15px;
+           box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+           width: 40%;
+           text-align: center;
+           padding: 20px;
+        }
+        .feedback-section h2 {
+           color: darkblue;
+           font-size: 28px;
+        }
+        form {
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           background: #f9f9f9;
+           padding: 20px 10px 20px 10px;
+           border-radius: 10px;
+           box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        form input, form textarea {
+           width: 90%;
+           padding: 15px;
+           margin: 10px 0;
+           border: 1px solid #ccc;
+           border-radius: 5px;
+           font-size: 16px;
+           background: #fff;
+           box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        form textarea {
+           resize: none;
+        }
+        form button {
+           padding: 12px 24px;
+           background: darkblue;
+           color: white;
+           border: none;
+           border-radius: 5px;
+           cursor: pointer;
+           font-size: 16px;
+           transition: background 0.3s ease-in-out;
+        }
+        form button:hover {
+           background: navy;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">Skill<span>Map</span></div>
+        <div class="nav-links">
+            <a href="skillmap.html">Home</a>
+            <a href="skillmap.html">About us</a>
+            <a href="courses.html">Courses</a>
+            <a href="skillmap.html">Contact</a>
+            <a href="#">Feedback</a>
+        </div>
+    </nav>
+    <div class="section feedback-section" id="feedback">
+        <h2>FEEDBACK</h2>
+        <form action="" method="get">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <input type="tel" placeholder="Your Phone Number">
+            <textarea placeholder="Your Suggestions or Problems" rows="4" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

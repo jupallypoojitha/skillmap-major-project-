@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Node.js Learning Resources - SkillMap</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, skyblue, white, lightpink) no-repeat;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: white;
+            padding: 15px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            position: fixed;
+            width: 100%;
+            top: 0;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: darkblue;
+            padding-left: 20px;
+        }
+        .container {
+            margin-top: 80px;
+            padding: 20px;
+        }
+        .section {
+            margin: 30px auto;
+            max-width: 1200px;
+            background: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .section h2 {
+            font-size: 28px;
+            color: darkblue;
+        }
+        .resource-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        .resource-item {
+            background: white;
+            padding: 15px;
+            border-radius: 15px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            width: 250px;
+            transition: transform 0.3s ease-in-out;
+        }
+        .resource-item:hover {
+            transform: scale(1.05);
+        }
+        .resource-item a {
+            display: block;
+            margin-top: 10px;
+            padding: 8px;
+            background: linear-gradient(to right, lightblue, blue);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: background 0.3s ease-in-out;
+        }
+        .resource-item a:hover {
+            background: linear-gradient(to right, blue, darkblue);
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">SkillMap</div>
+    </nav>
+    <div class="container">
+        <h1>Node.js Learning Resources</h1>
+        
+        <!-- PDFs & eBooks Section -->
+        <div class="section">
+            <h2>PDFs & eBooks</h2>
+            <div class="resource-list">
+                <div class="resource-item"><h3>Node.js Design Patterns</h3><a href="https://www.packtpub.com/product/node-js-design-patterns-third-edition/9781839214110" target="_blank">Read Online</a></div>
+                <div class="resource-item"><h3>Node.js 8 the Right Way</h3><a href="https://www.oreilly.com/library/view/nodejs-8-the/9781491971079/" target="_blank">Read Online</a></div>
+                <div class="resource-item"><h3>Learning Node.js</h3><a href="https://www.oreilly.com/library/view/learning-nodejs-development/9781788626850/" target="_blank">Read Online</a></div>
+                <div class="resource-item"><h3>Node Cookbook</h3><a href="https://www.packtpub.com/product/node-cookbook/9781786463952" target="_blank">Read Online</a></div>
+                <div class="resource-item"><h3>Node.js Web Development</h3><a href="https://www.packtpub.com/product/nodejs-web-development/9781785889234" target="_blank">Read Online</a></div>
+                <div class="resource-item"><h3>Node.js in Action</h3><a href="https://www.manning.com/books/node-js-in-action-second-edition" target="_blank">Read Online</a></div>
+            </div>
+        </div>
+        
+        <!-- Online Courses Section -->
+        <div class="section">
+            <h2>Online Courses</h2>
+            <div class="resource-list">
+                <div class="resource-item"><h3>The Complete Node.js Developer Course</h3><a href="https://www.udemy.com/course/the-complete-nodejs-developer-course-2/" target="_blank">Enroll</a></div>
+                <div class="resource-item"><h3>Node.js Fundamentals - Pluralsight</h3><a href="https://www.pluralsight.com/courses/nodejs-fundamentals" target="_blank">Start Course</a></div>
+                <div class="resource-item"><h3>Node.js Crash Course - Scrimba</h3><a href="https://scrimba.com/learn/node" target="_blank">Start Learning</a></div>
+                <div class="resource-item"><h3>Server-side Development with Node.js - Coursera</h3><a href="https://www.coursera.org/learn/server-side-nodejs" target="_blank">Enroll</a></div>
+                <div class="resource-item"><h3>Node.js Backend Development - Khan Academy</h3><a href="https://www.khanacademy.org/computing/computer-programming/html-css-js/nodejs" target="_blank">Start Learning</a></div>
+                <div class="resource-item"><h3>Node.js and Express.js - Codecademy</h3><a href="https://www.codecademy.com/learn/learn-node-js" target="_blank">Join Course</a></div>
+            </div>
+        </div>
+        
+        <!-- YouTube Videos Section -->
+        <div class="section">
+            <h2>YouTube Videos</h2>
+            <div class="resource-list">
+                <div class="resource-item"><h3>Node.js Full Course - FreeCodeCamp</h3><a href="https://www.youtube.com/watch?v=Oe421EPjeBE" target="_blank">Watch</a></div>
+                <div class="resource-item"><h3>Node.js Crash Course</h3><a href="https://www.youtube.com/watch?v=fBNz5xF-Kx4" target="_blank">Watch</a></div>
+                <div class="resource-item"><h3>Node.js Tutorial for Beginners</h3><a href="https://www.youtube.com/watch?v=TlB_eWDSMt4" target="_blank">Watch</a></div>
+                <div class="resource-item"><h3>Building REST APIs with Node.js</h3><a href="https://www.youtube.com/watch?v=pKd0Rpw7O48" target="_blank">Watch</a></div>
+                <div class="resource-item"><h3>Node.js with Express.js</h3><a href="https://www.youtube.com/watch?v=L72fhGm1tfE" target="_blank">Watch</a></div>
+                <div class="resource-item"><h3>Authentication with Node.js</h3><a href="https://www.youtube.com/watch?v=Ud5xKCYQTjM" target="_blank">Watch</a></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

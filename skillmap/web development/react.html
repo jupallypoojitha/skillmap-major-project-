@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React Learning Resources - SkillMap</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, skyblue, white, lightpink) no-repeat;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: white;
+            padding: 15px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            position: fixed;
+            width: 100%;
+            top: 0;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: darkblue;
+            padding-left: 20px;
+        }
+        .container {
+            margin-top: 80px;
+            padding: 20px;
+        }
+        .section {
+            margin: 30px auto;
+            max-width: 1200px;
+            background: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .section h2 {
+            font-size: 28px;
+            color: darkblue;
+        }
+        .resource-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        .resource-item {
+            background: white;
+            padding: 15px;
+            border-radius: 15px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            width: 250px;
+            transition: transform 0.3s ease-in-out;
+        }
+        .resource-item:hover {
+            transform: scale(1.05);
+        }
+        .resource-item a {
+            display: block;
+            margin-top: 10px;
+            padding: 8px;
+            background: linear-gradient(to right, lightblue, blue);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: background 0.3s ease-in-out;
+        }
+        .resource-item a:hover {
+            background: linear-gradient(to right, blue, darkblue);
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">SkillMap</div>
+    </nav>
+    <div class="container">
+        <h1>React Learning Resources</h1>
+        
+        <!-- PDFs & eBooks Section -->
+        <div class="section">
+            <h2>PDFs & eBooks</h2>
+            <div class="resource-list">
+                <div class="resource-item"><h3>Fullstack React</h3><a href="https://www.fullstackreact.com/" target="_blank">Read Online</a></div>
+                <div class="resource-item"><h3>Learning React</h3><a href="https://www.oreilly.com/library/view/learning-react-2nd/9781492051718/" target="_blank">Read Online</a></div>
+                <div class="resource-item"><h3>React Quickly</h3><a href="https://www.manning.com/books/react-quickly" target="_blank">Read Online</a></div>
+                <div class="resource-item"><h3>Pro React</h3><a href="https://www.apress.com/gp/book/9781484212612" target="_blank">Read Online</a></div>
+                <div class="resource-item"><h3>React Up and Running</h3><a href="https://www.oreilly.com/library/view/react-up-running/9781491931820/" target="_blank">Read Online</a></div>
+                <div class="resource-item"><h3>Road to React</h3><a href="https://roadtoreact.com/" target="_blank">Read Online</a></div>
+            </div>
+        </div>
+        
+        <!-- Online Courses Section -->
+        <div class="section">
+            <h2>Online Courses</h2>
+            <div class="resource-list">
+                <div class="resource-item"><h3>React Basics - Scrimba</h3><a href="https://scrimba.com/learn/learnreact" target="_blank">Start Learning</a></div>
+                <div class="resource-item"><h3>Modern React with Redux - Udemy</h3><a href="https://www.udemy.com/course/react-redux/" target="_blank">Enroll</a></div>
+                <div class="resource-item"><h3>React - Codecademy</h3><a href="https://www.codecademy.com/learn/react-101" target="_blank">Join Course</a></div>
+                <div class="resource-item"><h3>Full Modern React Course - Coursera</h3><a href="https://www.coursera.org/learn/react" target="_blank">Enroll</a></div>
+                <div class="resource-item"><h3>React for Web Development - Khan Academy</h3><a href="https://www.khanacademy.org/computing/computer-programming/html-css-js/react-js" target="_blank">Start Learning</a></div>
+                <div class="resource-item"><h3>React Fundamentals - Pluralsight</h3><a href="https://www.pluralsight.com/courses/react-fundamentals" target="_blank">Start Course</a></div>
+            </div>
+        </div>
+        
+        <!-- YouTube Videos Section -->
+        <div class="section">
+            <h2>YouTube Videos</h2>
+            <div class="resource-list">
+                <div class="resource-item"><h3>React Full Course - FreeCodeCamp</h3><a href="https://www.youtube.com/watch?v=4UZrsTqkcW4" target="_blank">Watch</a></div>
+                <div class="resource-item"><h3>React Crash Course</h3><a href="https://www.youtube.com/watch?v=w7ejDZ8SWv8" target="_blank">Watch</a></div>
+                <div class="resource-item"><h3>Modern React Explained</h3><a href="https://www.youtube.com/watch?v=Ke90Tje7VS0" target="_blank">Watch</a></div>
+                <div class="resource-item"><h3>React Hooks Tutorial</h3><a href="https://www.youtube.com/watch?v=f687hBjwFcM" target="_blank">Watch</a></div>
+                <div class="resource-item"><h3>React Context API</h3><a href="https://www.youtube.com/watch?v=35lXWvCuM8o" target="_blank">Watch</a></div>
+                <div class="resource-item"><h3>Next.js & React</h3><a href="https://www.youtube.com/watch?v=mTz0GXj8NN0" target="_blank">Watch</a></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

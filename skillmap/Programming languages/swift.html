@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swift Programming Resources - SkillMap</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, skyblue, white, lightpink) no-repeat;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: white;
+            padding: 15px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            position: fixed;
+            width: 100%;
+            top: 0;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: darkblue;
+            padding-left: 20px;
+        }
+        .container {
+            margin-top: 80px;
+            padding: 20px;
+        }
+        .section {
+            margin: 30px auto;
+            max-width: 1200px;
+            background: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .section h2 {
+            font-size: 28px;
+            color: darkblue;
+        }
+        .resource-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        .resource-item {
+            background: white;
+            padding: 15px;
+            border-radius: 15px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            width: 250px;
+            transition: transform 0.3s ease-in-out;
+        }
+        .resource-item:hover {
+            transform: scale(1.05);
+        }
+        .resource-item a {
+            display: block;
+            margin-top: 10px;
+            padding: 8px;
+            background: linear-gradient(to right, lightblue, blue);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: background 0.3s ease-in-out;
+        }
+        .resource-item a:hover {
+            background: linear-gradient(to right, blue, darkblue);
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">SkillMap</div>
+    </nav>
+    <div class="container">
+        <h1>Swift Programming Learning Resources</h1>
+        
+        <!-- PDFs & eBooks Section -->
+        <div class="section">
+            <h2>PDFs & eBooks</h2>
+            <div class="resource-list">
+                <div class="resource-item"><h3>The Swift Programming Language</h3><a href="https://swift.org/documentation/" target="_blank">Read Online</a></div>
+                <div class="resource-item"><h3>Swift for Beginners</h3><a href="https://www.swift.org/getting-started/" target="_blank">Read Online</a></div>
+                <div class="resource-item"><h3>Swift in Depth</h3><a href="https://www.manning.com/books/swift-in-depth" target="_blank">Read Online</a></div>
+                <div class="resource-item"><h3>Swift Apprentice</h3><a href="https://www.raywenderlich.com/books/swift-apprentice" target="_blank">Read Online</a></div>
+                <div class="resource-item"><h3>Advanced Swift</h3><a href="https://www.objc.io/books/advanced-swift/" target="_blank">Read Online</a></div>
+                <div class="resource-item"><h3>Swift UI by Tutorials</h3><a href="https://www.raywenderlich.com/books/swiftui-by-tutorials" target="_blank">Read Online</a></div>
+            </div>
+        </div>
+        
+        <!-- Online Courses Section -->
+        <div class="section">
+            <h2>Online Courses</h2>
+            <div class="resource-list">
+                <div class="resource-item"><h3>Swift for Beginners - Udemy</h3><a href="https://www.udemy.com/course/swift-for-beginners/" target="_blank">Enroll</a></div>
+                <div class="resource-item"><h3>Swift Fundamentals - Pluralsight</h3><a href="https://www.pluralsight.com/courses/swift-fundamentals" target="_blank">Enroll</a></div>
+                <div class="resource-item"><h3>Swift Programming - Coursera</h3><a href="https://www.coursera.org/learn/swift-programming" target="_blank">Enroll</a></div>
+                <div class="resource-item"><h3>iOS Development with Swift - Codecademy</h3><a href="https://www.codecademy.com/learn/learn-swift" target="_blank">Join Course</a></div>
+                <div class="resource-item"><h3>Swift for iOS Development - LinkedIn Learning</h3><a href="https://www.linkedin.com/learning/swift-for-ios-development" target="_blank">Join Course</a></div>
+                <div class="resource-item"><h3>Swift Playgrounds - Apple</h3><a href="https://developer.apple.com/swift-playgrounds/" target="_blank">Explore</a></div>
+            </div>
+        </div>
+        
+        <!-- YouTube Videos Section -->
+        <div class="section">
+            <h2>YouTube Videos</h2>
+            <div class="resource-list">
+                <div class="resource-item"><h3>Swift Full Course for Beginners</h3><a href="https://www.youtube.com/watch?v=Ulp1Kimblg0" target="_blank">Watch</a></div>
+                <div class="resource-item"><h3>Swift Programming Crash Course</h3><a href="https://www.youtube.com/watch?v=comQ1-x2a1Q" target="_blank">Watch</a></div>
+                <div class="resource-item"><h3>Swift UI Basics</h3><a href="https://www.youtube.com/watch?v=IoL-KCFbIpA" target="_blank">Watch</a></div>
+                <div class="resource-item"><h3>iOS App Development with Swift</h3><a href="https://www.youtube.com/watch?v=aiXvvL9jE_E" target="_blank">Watch</a></div>
+                <div class="resource-item"><h3>Swift Asynchronous Programming</h3><a href="https://www.youtube.com/watch?v=55XUaH8g_vE" target="_blank">Watch</a></div>
+                <div class="resource-item"><h3>Advanced Swift Concepts</h3><a href="https://www.youtube.com/watch?v=JkwYiK0cvB8" target="_blank">Watch</a></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

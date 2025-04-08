@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile App Development Learning Resources - SkillMap</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, skyblue, white, lightpink) no-repeat;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: white;
+            padding: 15px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            position: fixed;
+            width: 100%;
+            top: 0;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: darkblue;
+            padding-left: 20px;
+        }
+        .container {
+            margin-top: 80px;
+            padding: 20px;
+        }
+        .section {
+            margin: 30px auto;
+            max-width: 1200px;
+            background: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .section h2 {
+            font-size: 28px;
+            color: darkblue;
+        }
+        .resource-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        .resource-item {
+            background: white;
+            padding: 15px;
+            border-radius: 15px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            width: 250px;
+            transition: transform 0.3s ease-in-out;
+        }
+        .resource-item:hover {
+            transform: scale(1.05);
+        }
+        .resource-item a {
+            display: block;
+            margin-top: 10px;
+            padding: 8px;
+            background: linear-gradient(to right, lightblue, blue);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: background 0.3s ease-in-out;
+        }
+        .resource-item a:hover {
+            background: linear-gradient(to right, blue, darkblue);
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">SkillMap</div>
+    </nav>
+    <div class="container">
+        <h1>Android App Development Learning Resources</h1>
+        
+        <!-- PDFs & eBooks Section -->
+        <div class="section">
+            <h2>PDFs & eBooks</h2>
+            <div class="resource-list">
+                <div class="resource-item"><h3>Android Programming: The Big Nerd Ranch Guide</h3><a href="https://www.bignerdranch.com/books/android-programming/" target="_blank">Read Online</a></div>
+                <div class="resource-item"><h3>Android Development for Beginners</h3><a href="https://developer.android.com/courses/android-basics-kotlin/course" target="_blank">Read Online</a></div>
+                <div class="resource-item"><h3>Head First Android Development</h3><a href="https://www.oreilly.com/library/view/head-first-android/9781491974056/" target="_blank">Read Online</a></div>
+                <div class="resource-item"><h3>The Busy Coder’s Guide to Android Development</h3><a href="https://commonsware.com/Android/" target="_blank">Read Online</a></div>
+                <div class="resource-item"><h3>Android Programming: Pushing the Limits</h3><a href="https://www.oreilly.com/library/view/android-programming-pushing/9781118717370/" target="_blank">Read Online</a></div>
+                <div class="resource-item"><h3>Professional Android</h3><a href="https://www.wiley.com/en-us/Professional+Android%2C+4th+Edition-p-9781118949528" target="_blank">Read Online</a></div>
+            </div>
+        </div>
+        
+        <!-- Online Courses Section -->
+        <div class="section">
+            <h2>Online Courses</h2>
+            <div class="resource-list">
+                <div class="resource-item"><h3>Android Development - Udacity</h3><a href="https://www.udacity.com/course/android-development-for-beginners--ud837" target="_blank">Enroll</a></div>
+                <div class="resource-item"><h3>Android App Development Specialization - Coursera</h3><a href="https://www.coursera.org/specializations/android-app-development" target="_blank">Start Course</a></div>
+                <div class="resource-item"><h3>Google's Android Developer Course</h3><a href="https://developer.android.com/courses" target="_blank">Start Learning</a></div>
+                <div class="resource-item"><h3>Kotlin for Android Developers - Pluralsight</h3><a href="https://www.pluralsight.com/courses/kotlin-android-app-development" target="_blank">Join Course</a></div>
+                <div class="resource-item"><h3>Android App Development - Codecademy</h3><a href="https://www.codecademy.com/learn/learn-android-development" target="_blank">Start Learning</a></div>
+                <div class="resource-item"><h3>Android App Development Bootcamp - Udemy</h3><a href="https://www.udemy.com/course/android-development-java-kotlin/" target="_blank">Enroll</a></div>
+            </div>
+        </div>
+        
+        <!-- YouTube Videos Section -->
+        <div class="section">
+            <h2>YouTube Videos</h2>
+            <div class="resource-list">
+                <div class="resource-item"><h3>Android Development Full Course</h3><a href="https://www.youtube.com/watch?v=fis26HvvDII" target="_blank">Watch</a></div>
+                <div class="resource-item"><h3>Android App Development for Beginners</h3><a href="https://www.youtube.com/watch?v=bbjErsGKqsQ" target="_blank">Watch</a></div>
+                <div class="resource-item"><h3>Kotlin for Android Development</h3><a href="https://www.youtube.com/watch?v=F9UC9DY-vIU" target="_blank">Watch</a></div>
+                <div class="resource-item"><h3>Building Your First Android App</h3><a href="https://www.youtube.com/watch?v=mXjZQX3UzOs" target="_blank">Watch</a></div>
+                <div class="resource-item"><h3>Advanced Android Development</h3><a href="https://www.youtube.com/watch?v=O-2jI9tXnHA" target="_blank">Watch</a></div>
+                <div class="resource-item"><h3>Android UI Design Best Practices</h3><a href="https://www.youtube.com/watch?v=JHw6LTuKAnY" target="_blank">Watch</a></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

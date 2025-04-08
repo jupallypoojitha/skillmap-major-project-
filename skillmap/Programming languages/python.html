@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Resources - SkillMap</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, skyblue, white, lightpink) no-repeat;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: white;
+            padding: 15px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            position: fixed;
+            width: 100%;
+            top: 0;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: darkblue;
+            padding-left: 20px;
+        }
+        .container {
+            margin-top: 80px;
+            padding: 20px;
+        }
+        .section {
+            margin: 30px auto;
+            max-width: 1200px;
+            background: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .section h2 {
+            font-size: 28px;
+            color: darkblue;
+        }
+        .resource-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        .resource-item {
+            background: white;
+            padding: 15px;
+            border-radius: 15px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            width: 250px;
+            transition: transform 0.3s ease-in-out;
+        }
+        .resource-item:hover {
+            transform: scale(1.05);
+        }
+        .resource-item a {
+            display: block;
+            margin-top: 10px;
+            padding: 8px;
+            background: linear-gradient(to right, lightblue, blue);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: background 0.3s ease-in-out;
+        }
+        .resource-item a:hover {
+            background: linear-gradient(to right, blue, darkblue);
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">SkillMap</div>
+    </nav>
+    <div class="container">
+        <h1>Python Learning Resources</h1>
+        
+        <!-- PDFs & eBooks Section -->
+        <div class="section">
+            <h2>PDFs & eBooks</h2>
+            <div class="resource-list">
+                <div class="resource-item"><h3>Python Crash Course</h3><a href="https://www.amazon.in/s?k=phython+crash+course&adgrpid=1319415563386374&hvadid=82463731694758&hvbmt=be&hvdev=c&hvlocphy=116074&hvnetw=o&hvqmt=e&hvtargid=kwd-82464368251368%3Aloc-90&hydadcr=19287_1927328&mcid=db41e8344f833384930e1926a2d9a2a0&msclkid=acc2656202d912c326bd02878fdfe400&tag=msndeskstdin-21&ref=pd_sl_388moa8s9o_e" target="_blank">Book Now</a></div>
+                <div class="resource-item"><h3>Automate the Boring Stuff with Python</h3><a href="https://automatetheboringstuff.com/" target="_blank">Read Online</a></div>
+                <div class="resource-item"><h3>Learn Python the Hard Way</h3><a href="https://learnpythonthehardway.org/" target="_blank">Visit Site</a></div>
+                <div class="resource-item"><h3>Think Python</h3><a href="https://greenteapress.com/thinkpython2/" target="_blank">Read Online</a></div>
+                <div class="resource-item"><h3>Python Cookbook</h3><a href="https://www.oreilly.com/library/view/python-cookbook-3rd/9781449357337/" target="_blank">Read Online</a></div>
+                <div class="resource-item"><h3>Python Tricks</h3><a href="https://realpython.com/products/python-tricks-book/" target="_blank">Read Online</a></div>
+                <div class="resource-item"><h3>Effective Python</h3><a href="https://effectivepython.com/" target="_blank">Read Online</a></div>
+                <div class="resource-item"><h3>Python Data Science Handbook</h3><a href="https://jakevdp.github.io/PythonDataScienceHandbook/" target="_blank">Read Online</a></div>
+                <div class="resource-item"><h3>Deep Learning with Python</h3><a href="https://www.manning.com/books/deep-learning-with-python" target="_blank">Read Online</a></div>
+            </div>
+        </div>
+        
+        <!-- Online Courses Section -->
+        <div class="section">
+            <h2>Online Courses</h2>
+            <div class="resource-list">
+                <div class="resource-item"><h3>Python for Everybody - Coursera</h3><a href="https://www.coursera.org/specializations/python" target="_blank">Enroll</a></div>
+                <div class="resource-item"><h3>Google's Python Class</h3><a href="https://developers.google.com/edu/python" target="_blank">Access</a></div>
+                <div class="resource-item"><h3>Harvard CS50’s Introduction to Python</h3><a href="https://cs50.harvard.edu/python/" target="_blank">Join Course</a></div>
+                <div class="resource-item"><h3>MIT OpenCourseWare - Python</h3><a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/" target="_blank">Join Course</a></div>
+                <div class="resource-item"><h3>Udacity - Intro to Python</h3><a href="https://www.udacity.com/course/introduction-to-python--ud1110" target="_blank">Enroll</a></div>
+            </div>
+        </div>
+        
+        <!-- YouTube Videos Section -->
+        <div class="section">
+            <h2>YouTube Videos</h2>
+            <div class="resource-list">
+                <div class="resource-item"><h3>Python Full Course for Beginners</h3><a href="https://www.youtube.com/watch?v=rfscVS0vtbw" target="_blank">Watch</a></div>
+                <div class="resource-item"><h3>Python in One Video</h3><a href="https://www.youtube.com/watch?v=kqtD5dpn9C8" target="_blank">Watch</a></div>
+                <div class="resource-item"><h3>Python for Data Science</h3><a href="https://www.youtube.com/watch?v=LHBE6Q9XlzI" target="_blank">Watch</a></div>
+                <div class="resource-item"><h3>Object-Oriented Programming in Python</h3><a href="https://www.youtube.com/watch?v=Ej_02ICOIgs" target="_blank">Watch</a></div>
+                <div class="resource-item"><h3>Python Web Development</h3><a href="https://www.youtube.com/watch?v=mr5xkf6zSzk" target="_blank">Watch</a></div>
+                <div class="resource-item"><h3>Machine Learning with Python</h3><a href="https://www.youtube.com/watch?v=7eh4d6sabA0" target="_blank">Watch</a></div>
+                <div class="resource-item"><h3>Python Automation</h3><a href="https://www.youtube.com/watch?v=JwSS70SZdyM" target="_blank">Watch</a></div>
+                <div class="resource-item"><h3>Python Flask Tutorial</h3><a href="https://www.youtube.com/watch?v=Z1RJmh_OqeA" target="_blank">Watch</a></div>
+                <div class="resource-item"><h3>Deep Learning with Python</h3><a href="https://www.youtube.com/watch?v=aircAruvnKk" target="_blank">Watch</a></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

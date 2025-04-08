@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruby Programming Resources - SkillMap</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, skyblue, white, lightpink) no-repeat;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: white;
+            padding: 15px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            position: fixed;
+            width: 100%;
+            top: 0;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: darkblue;
+            padding-left: 20px;
+        }
+        .container {
+            margin-top: 80px;
+            padding: 20px;
+        }
+        .section {
+            margin: 30px auto;
+            max-width: 1200px;
+            background: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .section h2 {
+            font-size: 28px;
+            color: darkblue;
+        }
+        .resource-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        .resource-item {
+            background: white;
+            padding: 15px;
+            border-radius: 15px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            width: 250px;
+            transition: transform 0.3s ease-in-out;
+        }
+        .resource-item:hover {
+            transform: scale(1.05);
+        }
+        .resource-item a {
+            display: block;
+            margin-top: 10px;
+            padding: 8px;
+            background: linear-gradient(to right, lightblue, blue);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: background 0.3s ease-in-out;
+        }
+        .resource-item a:hover {
+            background: linear-gradient(to right, blue, darkblue);
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">SkillMap</div>
+    </nav>
+    <div class="container">
+        <h1>Ruby Programming Learning Resources</h1>
+        
+        <!-- PDFs & eBooks Section -->
+        <div class="section">
+            <h2>PDFs & eBooks</h2>
+            <div class="resource-list">
+                <div class="resource-item"><h3>Programming Ruby</h3><a href="https://pragprog.com/titles/ruby5/programming-ruby-3-2-5th-edition/" target="_blank">Read Online</a></div>
+                <div class="resource-item"><h3>Eloquent Ruby</h3><a href="https://www.oreilly.com/library/view/eloquent-ruby/9780321700278/" target="_blank">Read Online</a></div>
+                <div class="resource-item"><h3>The Ruby Way</h3><a href="https://www.oreilly.com/library/view/the-ruby-way/9780132480376/" target="_blank">Read Online</a></div>
+                <div class="resource-item"><h3>Learn to Program</h3><a href="https://pine.fm/LearnToProgram/" target="_blank">Read Online</a></div>
+                <div class="resource-item"><h3>Ruby Best Practices</h3><a href="https://www.oreilly.com/library/view/ruby-best-practices/9780596157487/" target="_blank">Read Online</a></div>
+                <div class="resource-item"><h3>Metaprogramming Ruby</h3><a href="https://pragprog.com/titles/ppmetr2/metaprogramming-ruby-2/" target="_blank">Read Online</a></div>
+            </div>
+        </div>
+        
+        <!-- Online Courses Section -->
+        <div class="section">
+            <h2>Online Courses</h2>
+            <div class="resource-list">
+                <div class="resource-item"><h3>Ruby for Beginners - Codecademy</h3><a href="https://www.codecademy.com/learn/learn-ruby" target="_blank">Join Course</a></div>
+                <div class="resource-item"><h3>Ruby on Rails - Udemy</h3><a href="https://www.udemy.com/course/the-complete-ruby-on-rails-developer-course/" target="_blank">Enroll</a></div>
+                <div class="resource-item"><h3>Ruby Programming - Coursera</h3><a href="https://www.coursera.org/courses?query=ruby" target="_blank">Enroll</a></div>
+                <div class="resource-item"><h3>Ruby Fundamentals - Pluralsight</h3><a href="https://www.pluralsight.com/courses/ruby-fundamentals" target="_blank">Enroll</a></div>
+                <div class="resource-item"><h3>Ruby Essential Training - LinkedIn Learning</h3><a href="https://www.linkedin.com/learning/ruby-essential-training" target="_blank">Enroll</a></div>
+                <div class="resource-item"><h3>Ruby Programming Basics - edX</h3><a href="https://www.edx.org/learn/ruby" target="_blank">Enroll</a></div>
+            </div>
+        </div>
+        
+        <!-- YouTube Videos Section -->
+        <div class="section">
+            <h2>YouTube Videos</h2>
+            <div class="resource-list">
+                <div class="resource-item"><h3>Ruby Programming for Beginners</h3><a href="https://www.youtube.com/watch?v=t_ispmWmdjY" target="_blank">Watch</a></div>
+                <div class="resource-item"><h3>Ruby in One Video</h3><a href="https://www.youtube.com/watch?v=Dji9ALCgfpM" target="_blank">Watch</a></div>
+                <div class="resource-item"><h3>Ruby on Rails Crash Course</h3><a href="https://www.youtube.com/watch?v=fmyvWz5TUWg" target="_blank">Watch</a></div>
+                <div class="resource-item"><h3>Object-Oriented Ruby</h3><a href="https://www.youtube.com/watch?v=B4oFh7vtiu4" target="_blank">Watch</a></div>
+                <div class="resource-item"><h3>Ruby for Web Development</h3><a href="https://www.youtube.com/watch?v=zppMfmBpa5w" target="_blank">Watch</a></div>
+                <div class="resource-item"><h3>Advanced Ruby Programming</h3><a href="https://www.youtube.com/watch?v=wnN8VZ8b8XU" target="_blank">Watch</a></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

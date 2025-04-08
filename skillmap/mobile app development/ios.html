@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile App Development Learning Resources - SkillMap</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, skyblue, white, lightpink) no-repeat;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: white;
+            padding: 15px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            position: fixed;
+            width: 100%;
+            top: 0;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: darkblue;
+            padding-left: 20px;
+        }
+        .container {
+            margin-top: 80px;
+            padding: 20px;
+        }
+        .section {
+            margin: 30px auto;
+            max-width: 1200px;
+            background: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .section h2 {
+            font-size: 28px;
+            color: darkblue;
+        }
+        .resource-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        .resource-item {
+            background: white;
+            padding: 15px;
+            border-radius: 15px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            width: 250px;
+            transition: transform 0.3s ease-in-out;
+        }
+        .resource-item:hover {
+            transform: scale(1.05);
+        }
+        .resource-item a {
+            display: block;
+            margin-top: 10px;
+            padding: 8px;
+            background: linear-gradient(to right, lightblue, blue);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: background 0.3s ease-in-out;
+        }
+        .resource-item a:hover {
+            background: linear-gradient(to right, blue, darkblue);
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">SkillMap</div>
+    </nav>
+    <div class="container">
+        <h1>IOS App Development Learning Resources</h1>
+        
+        <!-- PDFs & eBooks Section -->
+        <div class="section">
+            <h2>PDFs & eBooks</h2>
+            <div class="resource-list">
+                <div class="resource-item"><h3>iOS Programming: The Big Nerd Ranch Guide</h3><a href="https://www.bignerdranch.com/books/ios-programming/" target="_blank">Read Online</a></div>
+                <div class="resource-item"><h3>iOS 14 Programming for Beginners</h3><a href="https://www.packtpub.com/product/ios-14-programming-for-beginners/9781800202027" target="_blank">Read Online</a></div>
+                <div class="resource-item"><h3>Swift for Absolute Beginners</h3><a href="https://www.apress.com/book/9781484238756" target="_blank">Read Online</a></div>
+                <div class="resource-item"><h3>Mastering Swift</h3><a href="https://www.packtpub.com/product/mastering-swift-5/9781789139860" target="_blank">Read Online</a></div>
+                <div class="resource-item"><h3>iOS Swift Game Development Cookbook</h3><a href="https://www.oreilly.com/library/view/ios-swift-game/9781491920800/" target="_blank">Read Online</a></div>
+                <div class="resource-item"><h3>iOS 15 Programming for Beginners</h3><a href="https://www.packtpub.com/product/ios-15-programming-for-beginners/9781803237040" target="_blank">Read Online</a></div>
+            </div>
+        </div>
+        
+        <!-- Online Courses Section -->
+        <div class="section">
+            <h2>Online Courses</h2>
+            <div class="resource-list">
+                <div class="resource-item"><h3>iOS Development - Udacity</h3><a href="https://www.udacity.com/course/ios-developer-nanodegree--nd003" target="_blank">Enroll</a></div>
+                <div class="resource-item"><h3>iOS App Development Specialization - Coursera</h3><a href="https://www.coursera.org/specializations/ios-app-development" target="_blank">Start Course</a></div>
+                <div class="resource-item"><h3>SwiftUI Essentials - Apple</h3><a href="https://developer.apple.com/tutorials/swiftui" target="_blank">Start Learning</a></div>
+                <div class="resource-item"><h3>iOS Development Bootcamp - Udemy</h3><a href="https://www.udemy.com/course/ios-13-app-development-bootcamp/" target="_blank">Enroll</a></div>
+                <div class="resource-item"><h3>Swift Programming - Codecademy</h3><a href="https://www.codecademy.com/learn/learn-swift" target="_blank">Start Learning</a></div>
+            </div>
+        </div>
+        
+        <!-- YouTube Videos Section -->
+        <div class="section">
+            <h2>YouTube Videos</h2>
+            <div class="resource-list">
+                <div class="resource-item"><h3>iOS Development Full Course</h3><a href="https://www.youtube.com/watch?v=aiXvvL1wNUc" target="_blank">Watch</a></div>
+                <div class="resource-item"><h3>Swift for Beginners</h3><a href="https://www.youtube.com/watch?v=comQ1-x2a1Q" target="_blank">Watch</a></div>
+                <div class="resource-item"><h3>Building Your First iOS App</h3><a href="https://www.youtube.com/watch?v=3VlWkXVkWwU" target="_blank">Watch</a></div>
+                <div class="resource-item"><h3>Advanced iOS Development</h3><a href="https://www.youtube.com/watch?v=nyg2cY8Y-wY" target="_blank">Watch</a></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C++ Programming Resources - SkillMap</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, skyblue, white, lightpink) no-repeat;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: white;
+            padding: 15px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            position: fixed;
+            width: 100%;
+            top: 0;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: darkblue;
+            padding-left: 20px;
+        }
+        .container {
+            margin-top: 80px;
+            padding: 20px;
+        }
+        .section {
+            margin: 30px auto;
+            max-width: 1200px;
+            background: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .section h2 {
+            font-size: 28px;
+            color: darkblue;
+        }
+        .resource-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        .resource-item {
+            background: white;
+            padding: 15px;
+            border-radius: 15px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            width: 250px;
+            transition: transform 0.3s ease-in-out;
+        }
+        .resource-item:hover {
+            transform: scale(1.05);
+        }
+        .resource-item a {
+            display: block;
+            margin-top: 10px;
+            padding: 8px;
+            background: linear-gradient(to right, lightblue, blue);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: background 0.3s ease-in-out;
+        }
+        .resource-item a:hover {
+            background: linear-gradient(to right, blue, darkblue);
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">SkillMap</div>
+    </nav>
+    <div class="container">
+        <h1>C++ Programming Learning Resources</h1>
+        
+        <!-- PDFs & eBooks Section -->
+        <div class="section">
+            <h2>PDFs & eBooks</h2>
+            <div class="resource-list">
+                <div class="resource-item"><h3>The C++ Programming Language</h3><a href="https://archive.org/details/TheCppProgrammingLanguage" target="_blank">Download</a></div>
+                <div class="resource-item"><h3>C++ Primer</h3><a href="https://www.oreilly.com/library/view/c-primer-5th/9780133053043/" target="_blank">Read Online</a></div>
+                <div class="resource-item"><h3>Accelerated C++</h3><a href="https://www.oreilly.com/library/view/accelerated-c-practical/020170353X/" target="_blank">Read Online</a></div>
+                <div class="resource-item"><h3>Effective C++</h3><a href="https://www.oreilly.com/library/view/effective-c-55/9780134852317/" target="_blank">Read Online</a></div>
+                <div class="resource-item"><h3>Programming: Principles and Practice Using C++</h3><a href="https://www.pearson.com/en-us/subject-catalog/p/programming-principles-and-practice-using-c/P200000002836/9780321992789" target="_blank">Read Online</a></div>
+            </div>
+        </div>
+        
+        <!-- Online Courses Section -->
+        <div class="section">
+            <h2>Online Courses</h2>
+            <div class="resource-list">
+                <div class="resource-item"><h3>C++ for Beginners - Udemy</h3><a href="https://www.udemy.com/course/c-plus-plus-for-beginners/" target="_blank">Enroll</a></div>
+                <div class="resource-item"><h3>C++ Programming - Coursera</h3><a href="https://www.coursera.org/specializations/cplusplus" target="_blank">Enroll</a></div>
+                <div class="resource-item"><h3>CS50’s Introduction to Programming with C++</h3><a href="https://cs50.harvard.edu/cpp/" target="_blank">Join Course</a></div>
+                <div class="resource-item"><h3>Learn C++ - Codecademy</h3><a href="https://www.codecademy.com/learn/learn-c-plus-plus" target="_blank">Join Course</a></div>
+                <div class="resource-item"><h3>Advanced C++ - Udacity</h3><a href="https://www.udacity.com/course/cplusplus-nanodegree--nd213" target="_blank">Enroll</a></div>
+            </div>
+        </div>
+        
+        <!-- YouTube Videos Section -->
+        <div class="section">
+            <h2>YouTube Videos</h2>
+            <div class="resource-list">
+                <div class="resource-item"><h3>C++ Programming Full Course</h3><a href="https://www.youtube.com/watch?v=vLnPwxZdW4Y" target="_blank">Watch</a></div>
+                <div class="resource-item"><h3>Introduction to C++</h3><a href="https://www.youtube.com/watch?v=zN7l7G2gGQg" target="_blank">Watch</a></div>
+                <div class="resource-item"><h3>Object-Oriented Programming in C++</h3><a href="https://www.youtube.com/watch?v=1O_wZxSgUQw" target="_blank">Watch</a></div>
+                <div class="resource-item"><h3>Data Structures and Algorithms in C++</h3><a href="https://www.youtube.com/watch?v=a3KQYWr6vkg" target="_blank">Watch</a></div>
+                <div class="resource-item"><h3>STL in C++</h3><a href="https://www.youtube.com/watch?v=2olsGf6JIkY" target="_blank">Watch</a></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

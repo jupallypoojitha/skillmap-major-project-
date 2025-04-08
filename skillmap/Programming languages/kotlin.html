@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kotlin Programming Resources - SkillMap</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, skyblue, white, lightpink) no-repeat;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: white;
+            padding: 15px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            position: fixed;
+            width: 100%;
+            top: 0;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: darkblue;
+            padding-left: 20px;
+        }
+        .container {
+            margin-top: 80px;
+            padding: 20px;
+        }
+        .section {
+            margin: 30px auto;
+            max-width: 1200px;
+            background: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .section h2 {
+            font-size: 28px;
+            color: darkblue;
+        }
+        .resource-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        .resource-item {
+            background: white;
+            padding: 15px;
+            border-radius: 15px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            width: 250px;
+            transition: transform 0.3s ease-in-out;
+        }
+        .resource-item:hover {
+            transform: scale(1.05);
+        }
+        .resource-item a {
+            display: block;
+            margin-top: 10px;
+            padding: 8px;
+            background: linear-gradient(to right, lightblue, blue);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: background 0.3s ease-in-out;
+        }
+        .resource-item a:hover {
+            background: linear-gradient(to right, blue, darkblue);
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">SkillMap</div>
+    </nav>
+    <div class="container">
+        <h1>Kotlin Programming Learning Resources</h1>
+        
+        <!-- PDFs & eBooks Section -->
+        <div class="section">
+            <h2>PDFs & eBooks</h2>
+            <div class="resource-list">
+                <div class="resource-item"><h3>Kotlin in Action</h3><a href="https://www.manning.com/books/kotlin-in-action" target="_blank">Read Online</a></div>
+                <div class="resource-item"><h3>The Kotlin Programming Language</h3><a href="https://kotlinlang.org/docs/home.html" target="_blank">Read Online</a></div>
+                <div class="resource-item"><h3>Kotlin for Android Developers</h3><a href="https://leanpub.com/kotlin-for-android-developers" target="_blank">Read Online</a></div>
+                <div class="resource-item"><h3>Kotlin Cookbook</h3><a href="https://www.oreilly.com/library/view/kotlin-cookbook/9781492046677/" target="_blank">Read Online</a></div>
+                <div class="resource-item"><h3>Head First Kotlin</h3><a href="https://www.oreilly.com/library/view/head-first-kotlin/9781491996683/" target="_blank">Read Online</a></div>
+                <div class="resource-item"><h3>Programming Kotlin</h3><a href="https://www.packtpub.com/product/programming-kotlin/9781787126367" target="_blank">Read Online</a></div>
+            </div>
+        </div>
+        
+        <!-- Online Courses Section -->
+        <div class="section">
+            <h2>Online Courses</h2>
+            <div class="resource-list">
+                <div class="resource-item"><h3>Kotlin for Java Developers - Coursera</h3><a href="https://www.coursera.org/learn/kotlin-for-java-developers" target="_blank">Enroll</a></div>
+                <div class="resource-item"><h3>Android Kotlin Development - Udacity</h3><a href="https://www.udacity.com/course/developing-android-apps-with-kotlin--ud9012" target="_blank">Enroll</a></div>
+                <div class="resource-item"><h3>Kotlin Fundamentals - Pluralsight</h3><a href="https://www.pluralsight.com/courses/kotlin-fundamentals" target="_blank">Enroll</a></div>
+                <div class="resource-item"><h3>Kotlin Bootcamp for Programmers - Google</h3><a href="https://developer.android.com/courses/kotlin-bootcamp" target="_blank">Enroll</a></div>
+                <div class="resource-item"><h3>Kotlin for Android - Codecademy</h3><a href="https://www.codecademy.com/learn/learn-kotlin" target="_blank">Join Course</a></div>
+                <div class="resource-item"><h3>Mastering Kotlin - LinkedIn Learning</h3><a href="https://www.linkedin.com/learning/kotlin-for-android-developers" target="_blank">Join Course</a></div>
+            </div>
+        </div>
+        
+        <!-- YouTube Videos Section -->
+        <div class="section">
+            <h2>YouTube Videos</h2>
+            <div class="resource-list">
+                <div class="resource-item"><h3>Kotlin Full Course for Beginners</h3><a href="https://www.youtube.com/watch?v=F9UC9DY-vIU" target="_blank">Watch</a></div>
+                <div class="resource-item"><h3>Kotlin Crash Course</h3><a href="https://www.youtube.com/watch?v=H_oGi8uuDpA" target="_blank">Watch</a></div>
+                <div class="resource-item"><h3>Android Development with Kotlin</h3><a href="https://www.youtube.com/watch?v=aS__9RbCyHg" target="_blank">Watch</a></div>
+                <div class="resource-item"><h3>Kotlin Coroutines Explained</h3><a href="https://www.youtube.com/watch?v=BOHK_w09pVA" target="_blank">Watch</a></div>
+                <div class="resource-item"><h3>Kotlin Object-Oriented Programming</h3><a href="https://www.youtube.com/watch?v=UPpZzba_hzA" target="_blank">Watch</a></div>
+                <div class="resource-item"><h3>Advanced Kotlin Concepts</h3><a href="https://www.youtube.com/watch?v=Crg9o54tTIQ" target="_blank">Watch</a></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
